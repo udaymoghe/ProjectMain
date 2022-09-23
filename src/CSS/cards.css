@@ -1,0 +1,57 @@
+.align-items-center {
+    -webkit-box-align: center!important;
+    align-items: center!important;
+}
+.download .download-content h3 {
+    font-size: 40px;
+    /* font-weight: bold; */
+    font-weight: 800;
+    margin-bottom: 1.35rem;
+    color: #000;
+}
+.download .download-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+}
+.download .app-detail .user-info {
+    /* padding: 30px; */
+    padding: 40px;
+    border-radius: 0.625rem;
+    /* box-shadow: 0 8px 20px 0 #0000000d; */
+    box-shadow: 0 18px 30px 0 #e31d24;
+    /* margin: 15px 0; */
+    margin: 50px 0;
+}
+/* .download .app-detail .user-info img {
+    width: 100%;
+} */
+.download .app-detail .user-info h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 1rem 0 0.1rem;
+    color: #000;
+}
+.download .app-detail .user-info p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: gray;
+}
+.newLineRender {
+    white-space: pre-line;
+}
+.output {
+    background-color: #000;
+    color: greenyellow;
+    padding: 20px;
+    /* height: 425px; */
+    border-radius: 12px;
+}
+.input {
+    background-color: #000;
+    padding: 20px;
+    color: whitesmoke;
+    /* height: 425px; */
+    border-radius: 12px;
+}
