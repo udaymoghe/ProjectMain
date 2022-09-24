@@ -18,8 +18,8 @@ export default function Navbar() {
     </button>
     
     <div className="collapse navbar-collapse sectionbar bar" id="navbarSupportedContent">
-      <ul className="navbar-nav mb-2 mb-lg-0">
-      {/* <li className="nav-item">
+      <ul className="navbar-nav mb-lg-0">
+      {/* <li className="nav-item"> 
             <Link className="nav-links" to='/Home'>Home</Link>
         </li> */}
 
