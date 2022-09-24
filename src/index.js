@@ -4,13 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {HashRouter, Route, Routes} from 'react-router-dom';
+import Download from './Components/Mains/Download';
+import Contact from './Components/Mains/Contact';
 import SquarePyramid from './Components/Pattern/SquarePyramid';
 import DownPyramid from './Components/Pattern/DownPyramid';
 import RightTriangle from './Components/Pattern/RightTriangle';
 import Sumtono from './Components/Sumtono';
 import About from './Components/Mains/About';
 import Features from './Components/Mains/Features';
-import Contact from './Components/Mains/Contact';
 import Landing from './Components/Mains/Landing';
 import Pattern from './Components/Mains/Pattern';
 import Multiplication from './Components/Multiplication';
@@ -21,6 +22,7 @@ import Swapping from './Components/Swapping';
 import Reversestring from './Components/Reversestring';
 import EvenorOdd from './Components/EvenorOdd';
 import Factors from './Components/Factors';
+import Footer from './Components/Mains/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -34,7 +36,8 @@ root.render(
         <Route path='/About' element={<About/>}/>
         <Route path='/Pattern' element={<Pattern/>}/>
         <Route path='/Features' element={<Features/>}/>
-        <Route path='/Download' element={<Contact/>}/>
+        <Route path='/Download' element={<Download/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
         <Route path='/SquarePyramid' element={<SquarePyramid/>}/>
         <Route path='/DownPyramid' element={<DownPyramid/>}/>
         <Route path='/RightTriangle' element={<RightTriangle/>}/>
@@ -47,7 +50,9 @@ root.render(
         <Route path='/Reversestring' element={<Reversestring/>}/>
         <Route path='/EvenorOdd' element={<EvenorOdd/>}/>
         <Route path='/Factors' element={<Factors/>}/>
+        <Route path='/Footer' element={<Footer/>}/>
       </Routes>
+      <Footer/>
       </div>
     </HashRouter>
   </React.StrictMode>

@@ -7,7 +7,7 @@ export default function Pattern() {
   return (
     <>
     <section style={{background:"#f9f8f3"}}>
-      <title>Pyramid Pattern</title>
+      <title>Pattern</title>
     <div className='container'>
     <div className='row download'>
 

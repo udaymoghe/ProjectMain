@@ -9,8 +9,8 @@ export default function Landing() {
     <>
     <section  style={{background:"#f9f8f3"}}>
         <title>Tech Hacks Pvt. Ltd.</title>
-        <div className="position-relative wrapper" style={{position: "absolute",height: "85vh"}}>
-          
+        <div className="position-relative wrapper" style={{position: "absolute",height: "100vh"}}>
+
         </div>
     </section>
 

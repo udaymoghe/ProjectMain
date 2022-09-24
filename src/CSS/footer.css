@@ -1,0 +1,12 @@
+.footer {
+    position: relative;
+    padding: 30px 0;
+    background-color: #f8f9fa;
+    z-index: 1;
+}
+.footer p, .footer a {
+    margin-bottom: 0;
+    font-size: 17px;
+    color: gray;
+    text-transform: capitalize;
+}

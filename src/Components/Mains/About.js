@@ -2,7 +2,9 @@ import React from 'react'
 
 export default function About() {
   return (    
+    <>
     <section  style={{background:"#f9f8f3"}}>
+        <title>About</title>
         <div className='container'>
             <div className='row'>
                 <div className='col-md-6'>
@@ -14,5 +16,6 @@ export default function About() {
             </div>
         </div>
     </section>
+    </>
   )
 }
