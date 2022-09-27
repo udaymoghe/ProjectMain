@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/techhacks/static/js/runtime~main.78058e12.js"
   },
   {
-    "revision": "e1904c1b500961c07eba55f30672eef5",
-    "url": "/techhacks/static/media/landing2.e1904c1b.jpg"
-  },
-  {
     "revision": "4e6b8d17eee92b54077a9a6ac43466b7",
     "url": "/techhacks/static/media/landing1.4e6b8d17.jpg"
+  },
+  {
+    "revision": "e1904c1b500961c07eba55f30672eef5",
+    "url": "/techhacks/static/media/landing2.e1904c1b.jpg"
   },
   {
     "revision": "0099bc9e1254d58d6d1745c447b4b33b",
