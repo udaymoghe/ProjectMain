@@ -23,6 +23,7 @@ import Reversestring from './Components/Reversestring';
 import EvenorOdd from './Components/EvenorOdd';
 import Factors from './Components/Factors';
 import Footer from './Components/Mains/Footer';
+import Ascii from './Components/Ascii';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -51,6 +52,7 @@ root.render(
         <Route path='/EvenorOdd' element={<EvenorOdd/>}/>
         <Route path='/Factors' element={<Factors/>}/>
         <Route path='/Footer' element={<Footer/>}/>
+        <Route path='/Ascii' element={<Ascii/>}/>
       </Routes>
       <Footer/>
       </div>

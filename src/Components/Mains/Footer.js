@@ -4,7 +4,7 @@ import '../../CSS/footer.css';
 
 export default function Footer() {
   return (
-    <section className="footer mt-5" style={{background:"#FFCDD2"}}>
+    <section className="footer" style={{background:"#FFCDD2"}}>
     <div className="container">
         <div className="row">
             <div className="col text-center">

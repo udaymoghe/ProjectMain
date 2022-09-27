@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return (    
     <>
-    <section  style={{background:"#f9f8f3"}}>
+    <section  style={{background:"#F1D8DD"}}>
         <title>About</title>
         <div className='container'>
             <div className='row'>

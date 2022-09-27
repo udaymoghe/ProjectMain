@@ -114,6 +114,30 @@ export default function Pattern() {
       </div>
     </div>
 
+    <div className='row app-detail'>
+      <div className="col  text-center">
+        <div className="user-info">
+          <h3 className='mt-3'>ASCII Character</h3>
+          <p className='mt-3'>ASCII Character</p>
+          <Link className="mt-3 btn btn-primary" to='/Ascii'>Try it</Link>
+        </div>
+      </div>
+      {/* <div className='col text-center'>
+        <div className='user-info'>
+          <h3 className='mt-3'>Even or Odd</h3>
+          <p className='mt-3'>Find Even or Odd</p>
+          <Link className='mt-3 btn btn-primary' to='/EvenorOdd'>Try it</Link>
+        </div>
+      </div>
+      <div className='col text-center'>
+        <div className='user-info'>
+          <h3 className='mt-3'>Factors</h3>
+          <p className='mt-3'>Factors of the Number</p>
+          <Link className='mt-3 btn btn-primary' to='/Factors'>Try it</Link>
+        </div>
+      </div> */}
+    </div>
+
     </div>
     </div>
     </section>
