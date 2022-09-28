@@ -3,6 +3,7 @@ import React from 'react';
 import About from './About';
 import Pattern from './Pattern';
 import '../../CSS/styles.css';
+import Contact from './Contact';
 
 export default function Landing() {
   return (
@@ -16,6 +17,7 @@ export default function Landing() {
 
     <About/>
     <Pattern/>
+    <Contact/>
     </>
   )
 }

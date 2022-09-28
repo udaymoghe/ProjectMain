@@ -133,3 +133,11 @@
                  /* background-color: red; */
         }
     }
+
+    .hov {
+        font-size: 18px; 
+        color: black;
+    }
+    .hov:hover {
+        color: #e31d24 !important;
+    }

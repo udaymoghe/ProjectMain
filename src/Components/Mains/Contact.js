@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../../CSS/styles.css';
+import "fa-icons";
 
 export default function Contact() {
   return (
     <>
-    <section  style={{background:"#f9f8f3", padding:"30px"}}>
+    <section  style={{background:"#F1D8DD", padding:"30px"}}>
       <title>Contact Us</title>
       <div className='container'>
         <div className='row'>
@@ -44,10 +46,16 @@ export default function Contact() {
               <h2 style={{fontWeight:"700"}}>Get In Touch</h2>
               <h4 className='mt-3'>Visit:</h4>
               <p className='mt-5'>Mail Us: 
-                <span>
+                <a href="mailto:hackstotech@gmail.com" className='hov'>
                   hackstotech@gmail.com
-                </span>
+                </a>
               </p>
+              <div>
+              <a href="/">
+                      <i className="fab fa-facebook-square" />
+                    </a>
+              </div>
+              
             </div>
           </div>
           
@@ -57,3 +65,4 @@ export default function Contact() {
     </>
   )
 }
+  

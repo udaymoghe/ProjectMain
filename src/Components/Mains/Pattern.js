@@ -122,14 +122,14 @@ export default function Pattern() {
           <Link className="mt-3 btn btn-primary" to='/Ascii'>Try it</Link>
         </div>
       </div>
-      {/* <div className='col text-center'>
+      <div className='col text-center'>
         <div className='user-info'>
-          <h3 className='mt-3'>Even or Odd</h3>
-          <p className='mt-3'>Find Even or Odd</p>
-          <Link className='mt-3 btn btn-primary' to='/EvenorOdd'>Try it</Link>
+          <h3 className='mt-3'>HCF Or GCD</h3>
+          <p className='mt-3'>Find HCF Or GCD</p>
+          <Link className='mt-3 btn btn-primary' to='/HCF'>Try it</Link>
         </div>
       </div>
-      <div className='col text-center'>
+      {/* <div className='col text-center'>
         <div className='user-info'>
           <h3 className='mt-3'>Factors</h3>
           <p className='mt-3'>Factors of the Number</p>
