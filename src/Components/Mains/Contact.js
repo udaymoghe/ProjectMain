@@ -10,7 +10,7 @@ export default function Contact() {
       <title>Contact Us</title>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-7 col-md-7 col-sm-12'>
+          <div className='col-lg-7 col-md-7 col-sm-12 mb-3'>
             <h2 style={{fontWeight:"800"}}>Send a Message</h2>
             <p style={{lineHeight:"25px"}}>Please read the privacy policy before submitting your contact information.
             <br/>By submitting this form you agree to receive the emails and newsletters.
@@ -41,7 +41,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className='col-lg-5 col-md-5 col-sm-12'>
+          <div className='col-lg-5 col-md-5 col-sm-12 mb-3'>
             <div className='card' style={{background:"#FFCDD2",padding:"30px"}}>
               <h2 style={{fontWeight:"700"}}>Get In Touch</h2>
               <h4 className='mt-3'>Visit:</h4>

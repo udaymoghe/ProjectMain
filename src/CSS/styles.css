@@ -110,15 +110,15 @@
     
       /* background image for devices with 480px or below */
     @media only screen
-      and (max-width: 575px) {
+      and (max-width: 500px) {
         .wrapper  {
-          background-image: url("../Images/landing1.jpg");
+          background-image: url("../Images/landing1.png");
           /* background-color: blue; */
           
         }
     }
     @media only screen
-      and (min-width:576px) and (max-width: 800px) {
+      and (min-width:501px) and (max-width: 850px) {
         .wrapper  {
           background-image: url("../Images/landing2.jpg");
           /* background-color: blue; */
@@ -127,7 +127,7 @@
     }
     /* background image for devices with 481px or above */
     @media only screen
-      and (min-width: 801px) {
+      and (min-width: 851px) {
         .wrapper  {
           background-image: url("../Images/landing.jpg")
                  /* background-color: red; */

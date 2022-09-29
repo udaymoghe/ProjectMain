@@ -25,6 +25,7 @@ import Factors from './Components/Factors';
 import Footer from './Components/Mains/Footer';
 import Ascii from './Components/Ascii';
 import HCF from './Components/HCF';
+import ScrollToTop from './ScrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -57,6 +58,7 @@ root.render(
         <Route path='/HCF' element={<HCF/>}/>
       </Routes>
       <Footer/>
+      <ScrollToTop/>
       </div>
     </HashRouter>
   </React.StrictMode>

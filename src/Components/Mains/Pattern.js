@@ -11,12 +11,12 @@ export default function Pattern() {
     <div className='container'>
     <div className='row download'>
 
-    <div className="col mt-3">
+   
       <div className="row app-detail">
         <div className="col  text-center">
           <div className="user-info">
-            <h3 className='mt-3'>Square Pattern (5*5)</h3>
-            <p className='mt-3'>Square Pattern to print (5*5)</p>
+            <h3 className='mt-3'>Pattern (5*5)</h3>
+            <p className='mt-3'>Pattern to print (5*5)</p>
             <Link className="mt-3 btn btn-primary" to='/SquarePyramid'>Try it</Link>
           </div>
         </div>
@@ -37,7 +37,7 @@ export default function Pattern() {
           </div>
         </div>
       </div>      
-    </div>
+    
 
     <div className="row app-detail">   
       <div className="col  text-center">
@@ -66,7 +66,7 @@ export default function Pattern() {
       </div>
 
       <div className="row app-detail">   
-      <div className="col  text-center">
+      <div className="col text-center">
         <div className="user-info">
           <h3 className='mt-3'>Mini Calculator</h3>
           <p className='mt-3'>Operations on Calculator</p>
@@ -74,7 +74,7 @@ export default function Pattern() {
         </div>
       </div>
 
-      <div className="col  text-center">
+      <div className="col text-center">
         <div className="user-info">
           <h3 className='mt-3'>Fibonacci Series</h3>
           <p className='mt-3'>Addition of previous number</p>
@@ -91,28 +91,30 @@ export default function Pattern() {
     </div>
 
     <div className='row app-detail'>
-      <div className="col  text-center">
-        <div className="user-info">
-          <h3 className='mt-3'>String Reverse</h3>
-          <p className='mt-3'>Reverse of String</p>
-          <Link className="mt-3 btn btn-primary" to='/Reversestring'>Try it</Link>
-        </div>
-      </div>
-      <div className='col text-center'>
-        <div className='user-info'>
-          <h3 className='mt-3'>Even or Odd</h3>
-          <p className='mt-3'>Find Even or Odd</p>
-          <Link className='mt-3 btn btn-primary' to='/EvenorOdd'>Try it</Link>
-        </div>
-      </div>
-      <div className='col text-center'>
-        <div className='user-info'>
-          <h3 className='mt-3'>Factors</h3>
-          <p className='mt-3'>Factors of the Number</p>
-          <Link className='mt-3 btn btn-primary' to='/Factors'>Try it</Link>
-        </div>
+    <div className="col text-center">
+      <div className="user-info">
+        <h3 className='mt-3'>Reverse String</h3>
+        <p className='mt-3'>String of Reverse</p>
+        <Link className="mt-3 btn btn-primary" to='/ReverseString'>Try it</Link>
       </div>
     </div>
+
+    <div className='col text-center'>
+      <div className='user-info'>
+        <h3 className='mt-3'>Even or Odd</h3>
+        <p className='mt-3'>Find Even or Odd</p>
+        <Link className='mt-3 btn btn-primary' to='/EvenorOdd'>Try it</Link>
+      </div>
+    </div>
+
+    <div className='col text-center'>
+      <div className='user-info'>
+        <h3 className='mt-3'>Factors</h3>
+        <p className='mt-3'>Factors of the Number</p>
+        <Link className='mt-3 btn btn-primary' to='/Factors'>Try it</Link>
+      </div>
+    </div>
+      </div>
 
     <div className='row app-detail'>
       <div className="col  text-center">
