@@ -131,13 +131,13 @@ export default function Pattern() {
           <Link className='mt-3 btn btn-primary' to='/HCF'>Try it</Link>
         </div>
       </div>
-      {/* <div className='col text-center'>
+      <div className='col text-center'>
         <div className='user-info'>
-          <h3 className='mt-3'>Factors</h3>
-          <p className='mt-3'>Factors of the Number</p>
-          <Link className='mt-3 btn btn-primary' to='/Factors'>Try it</Link>
+          <h3 className='mt-3'>Order Pizza</h3>
+          <p className='mt-3'>Order Pizza</p>
+          <Link className='mt-3 btn btn-primary' to='/OrderPizza'>Try it</Link>
         </div>
-      </div> */}
+      </div>
     </div>
 
     </div>

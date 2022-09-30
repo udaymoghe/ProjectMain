@@ -40,7 +40,7 @@ export default function Navbar() {
         </li> 
 
         <li className="nav-items">
-          <Link className="nav-links" to='/Download'>Download</Link>
+          <Link className="nav-links" to='/Creatives'>Creatives</Link>
         </li>
       
         <li className="nav-items">

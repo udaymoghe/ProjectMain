@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {HashRouter, Route, Routes} from 'react-router-dom';
-import Download from './Components/Mains/Download';
+import Creatives from './Components/Mains/Creatives';
 import Contact from './Components/Mains/Contact';
 import SquarePyramid from './Components/Pattern/SquarePyramid';
 import DownPyramid from './Components/Pattern/DownPyramid';
@@ -26,6 +26,8 @@ import Footer from './Components/Mains/Footer';
 import Ascii from './Components/Ascii';
 import HCF from './Components/HCF';
 import ScrollToTop from './ScrollToTop';
+import OrderPizza from './Components/OrderPizza';
+import RandomNumber from './Components/Mains/RandomNumber';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -39,7 +41,7 @@ root.render(
         <Route path='/About' element={<About/>}/>
         <Route path='/Pattern' element={<Pattern/>}/>
         <Route path='/Features' element={<Features/>}/>
-        <Route path='/Download' element={<Download/>}/>
+        <Route path='/Creatives' element={<Creatives/>}/>
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/SquarePyramid' element={<SquarePyramid/>}/>
         <Route path='/DownPyramid' element={<DownPyramid/>}/>
@@ -56,6 +58,8 @@ root.render(
         <Route path='/Footer' element={<Footer/>}/>
         <Route path='/Ascii' element={<Ascii/>}/>
         <Route path='/HCF' element={<HCF/>}/>
+        <Route path='/OrderPizza' element={<OrderPizza/>}/>
+        <Route path='/RandomNumber' element={<RandomNumber/>}/>
       </Routes>
       <Footer/>
       <ScrollToTop/>

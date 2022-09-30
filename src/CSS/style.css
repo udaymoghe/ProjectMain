@@ -631,12 +631,20 @@ margin-bottom: 10px;
 
 .btn {
     /* margin-left: 8px !important; */
-    background-color: #e31d24;
-    border: 1px solid #e31d24;
-    padding: 10px 10  px;
+    background-color: #ffcdd2;
+    border: 1px solid #ffcdd2;
+    color: #e31d24;
+    padding: 10px 10 px;
     border-radius: 0.325rem;
-    color: white;
+    /* background-color: #e31d24;
+    border: 1px solid #e31d24;
+    color: white; */
     font-weight: 800;
     width: 50%;
     height: auto;
+}
+.btn:hover{
+  background-color: #e31d24 !important;
+  border: 1px solid #e31d24 !important;
+  color: #fff;
 }
