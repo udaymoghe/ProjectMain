@@ -1,16 +1,17 @@
 import React from 'react';
 
 export default function RandomNumber() {
+    
+    // const [thisNum,num1]= React.useState(0);
+    const num1 = '';
+    const handleChange1 = () => {
+        num1(   );
+    }
+    
     function random()
     { 
-     Math.floor(Math.random() * 10);
+        return Math.floor(Math.random() * 10);
     }
-    let random1 = random();
-
-    const [thisNum,num1]= React.useState(0);
-
-    const handleChange1='';
-  
   return (
     <>
     <title>Random Number to Generate</title>
@@ -59,7 +60,7 @@ export default function RandomNumber() {
                         </div>
                         <div className='row mt-5'>
                             <button className='btn-primary btnrol' type='submit'>Generate Random Number</button>
-                            {random1}
+                            {random}
                         </div>
                     </div>
                 </div>

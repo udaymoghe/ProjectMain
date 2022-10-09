@@ -28,6 +28,10 @@ import HCF from './Components/HCF';
 import ScrollToTop from './ScrollToTop';
 import OrderPizza from './Components/OrderPizza';
 import RandomNumber from './Components/Mains/RandomNumber';
+import Test from './Components/Mains/Test';
+import Trial from './Components/Pattern/Trial';
+import Flip from './Components/Flip';
+import Clicker from './Components/Mains/Clicker';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -60,6 +64,10 @@ root.render(
         <Route path='/HCF' element={<HCF/>}/>
         <Route path='/OrderPizza' element={<OrderPizza/>}/>
         <Route path='/RandomNumber' element={<RandomNumber/>}/>
+        <Route path='/Test' element={<Test/>}/>
+        <Route path='/Trial' element={<Trial/>}/>
+        <Route path='/Flip' element={<Flip/>}/>
+        <Route path='/Clicker' element={<Clicker/>}/>
       </Routes>
       <Footer/>
       <ScrollToTop/>
