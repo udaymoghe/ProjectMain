@@ -83,7 +83,6 @@ export default function OperatorCalc() {
 
     const handleSubmit = () => {
         if(thisSubmit === 0) { setSubmit(1); }
-
     }
 
     let finalResult;

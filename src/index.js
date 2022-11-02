@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {HashRouter, Route, Routes} from 'react-router-dom';
-import Creatives from './Components/Mains/Creatives';
 import Contact from './Components/Mains/Contact';
 import SquarePyramid from './Components/Pattern/SquarePyramid';
 import DownPyramid from './Components/Pattern/DownPyramid';
@@ -28,10 +27,9 @@ import HCF from './Components/HCF';
 import ScrollToTop from './ScrollToTop';
 import OrderPizza from './Components/OrderPizza';
 import RandomNumber from './Components/Mains/RandomNumber';
-import Test from './Components/Mains/Test';
-import Trial from './Components/Pattern/Trial';
 import Flip from './Components/Flip';
 import Clicker from './Components/Mains/Clicker';
+import Todo from './Components/Mains/Todo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -45,7 +43,6 @@ root.render(
         <Route path='/About' element={<About/>}/>
         <Route path='/Pattern' element={<Pattern/>}/>
         <Route path='/Features' element={<Features/>}/>
-        <Route path='/Creatives' element={<Creatives/>}/>
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/SquarePyramid' element={<SquarePyramid/>}/>
         <Route path='/DownPyramid' element={<DownPyramid/>}/>
@@ -64,10 +61,9 @@ root.render(
         <Route path='/HCF' element={<HCF/>}/>
         <Route path='/OrderPizza' element={<OrderPizza/>}/>
         <Route path='/RandomNumber' element={<RandomNumber/>}/>
-        <Route path='/Test' element={<Test/>}/>
-        <Route path='/Trial' element={<Trial/>}/>
         <Route path='/Flip' element={<Flip/>}/>
         <Route path='/Clicker' element={<Clicker/>}/>
+        <Route path='/Todo' element={<Todo/>}/>
       </Routes>
       <Footer/>
       <ScrollToTop/>
